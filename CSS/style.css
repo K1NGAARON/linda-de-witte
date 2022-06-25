@@ -127,7 +127,7 @@ ul li:before {
 
 .topnav-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 0;
     max-width: 1600px;
@@ -364,6 +364,22 @@ ul li:before {
     bottom: 10px;
 }
 
+/* SCHEDULE APPOINTMENT */
+#contact .working-hours {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .working-hours p {
+    margin: 5px 0;
+}
+
+#contact .working-hours .focus {
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+
 /* SECRETS */
 #secrets {
     background-color: var(--grey);
@@ -386,8 +402,12 @@ ul li:before {
     transition: var(--transition);
 }
 
-
-
+/* REVIEW */
+#review {
+    background-image: url('https://wp.xpeedstudio.com/beautypressv2/home-v3/wp-content/uploads/sites/3/2017/12/testimonial-bg.jpg');
+    color: var(--white);
+    height: 50vh;
+}
 
 
 

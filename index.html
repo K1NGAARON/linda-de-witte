@@ -7,9 +7,8 @@
     <title>Dr Linda De Witte</title>
 
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/animated_numbers.css">
     <link rel="stylesheet" href="CSS/cookie_banner.css">
-    <link rel="stylesheet" href="CSS/modal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -36,7 +35,7 @@
         <div class="topnav-content">
             <div class="header-col">
                 <a class="header-link" href="index.html">
-                    <img class="header-logo" src="IMG/logo_contentmediasocial.png" alt="Logo Content Media Social">
+                    <img class="header-logo" src="IMG/logo.png" alt="Logo Content Media Social">
                 </a>
             </div>
             <div class="header-col">
@@ -160,16 +159,47 @@
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sequi natus veritatis aut voluptates at ipsum? Nisi ut sapiente architecto?
             </p>
             <div class="working-hours">
-                Mon - Wed: 08:00 - 18:00
-                Thu - Sat: 10:00 - 22:00
-                Sunday: Closed
+                <p>
+                   <span class="focus">Mon - Wed:</span> 08:00 - 18:00
+                </p>
+                <p>
+                    <span class="focus">Thu - Sat:</span> 10:00 - 22:00
+                </p>
+                <p>
+                    <span class="focus">Sunday:</span> Closed
+                </p>
             </div>
         </div>
         <div class="col">
             <form action="">
-                <span>
-                    TBA
-                </span>
+                <h3>
+                    Service
+                </h3>
+                <div class="form-wrapper">
+                    <select name="service" id="service" required>
+                        <option value="service 1">Service 1</option>
+                        <option value="service 2">Service 2</option>
+                    </select>
+                </div>
+                <div class="form-wrapper">
+                    <input type="date" required>
+                    <input type="text" required placeholder="Kies een tijd">
+                </div>
+
+                <h3>
+                    Persoonlijke informatie
+                </h3>
+                <div class="form-wrapper">
+                    <input type="text" required placeholder="Vul je voornaam in">
+                    <input type="email" required placeholder="Vul je e-mail in">
+                </div>
+                <div class="form-wrapper">
+                    <input type="text" required placeholder="Vul je GSM nummer in">
+                </div>
+                <div class="form-wrapper">
+                    <input type="text" required placeholder="Typ je bericht">
+                </div>
+                <input class="primary-btn" type="submit" value="Verstuur">
             </form>
         </div>
     </div>
@@ -186,22 +216,6 @@
         <img src="https://wp.xpeedstudio.com/beautypressv2/home-v3/wp-content/uploads/sites/3/2018/01/gallery_new_6.jpg-705x529.jpg" alt="">
         <img src="https://wp.xpeedstudio.com/beautypressv2/home-v3/wp-content/uploads/sites/3/2018/01/gallery_new_7.jpg-705x529.jpg" alt="">
         <img src="https://wp.xpeedstudio.com/beautypressv2/home-v3/wp-content/uploads/sites/3/2018/01/gallery_new_9.jpg-705x529.jpg" alt="">
-    </div>
-</div>
-
-<div class="section" id="review">
-    <div class="row flex-col">
-        <h3>
-            Nameeee
-        </h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eius magni id aliquam incidunt facilis accusamus accusantium voluptates minus corrupti.
-        </p>
-        <div class="rating">
-            <span>
-                RATING TBA
-            </span>
-        </div>
     </div>
 </div>
 
@@ -234,20 +248,33 @@
     </div>
 </div>
 
-
+<div class="section" id="review">
+    <div class="row flex-col">
+        <h3>
+            Nameeee
+        </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eius magni id aliquam incidunt facilis accusamus accusantium voluptates minus corrupti.
+        </p>
+        <div class="rating">
+            <span>
+                RATING TBA
+            </span>
+        </div>
+    </div>
+</div>
 
 <footer>
     <div class="section" id="footer">
         <div class="row">
             <div class="col">
-                <img src="IMG/logo_contentmediasocial.png" alt="Logo Content Media Social">
+                <img src="IMG/logo.png" alt="Logo">
             </div>
             <div class="col">
                 <ul>
-                    <li>Content Media</li>
-                    <li>Hemmestraat 4, 8620 Nieuwpoort</li>
-                    <li><a href="tel:0474455959">0474/45.59.59</a></li>
-                    <li><a href="mailto:hello@contentmedia.social">hello@contentmedia.social</a></li>
+                    <li>Centrum Esthetische Geneeskunde </li>
+                    <li>L. Coolsstraat 11</li>
+                    <li><a href="tel:0472561258">+32 472 56 12 58</a></li>
                 </ul>
             </div>
             <div class="col socials">
@@ -283,6 +310,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="JS/script.js"></script>
+    <script src="JS/animated_numbers.js"></script>
     <script src="JS/cookie_banner.js"></script>
 </body>
 </html>
