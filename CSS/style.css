@@ -369,6 +369,27 @@ ul li:before {
     background-color: var(--grey);
 }
 
+/* GALLERY */
+#gallery .row {
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#gallery .row img {
+    width: 25%;
+    transition: var(--transition);
+}
+
+#gallery .row img:hover {
+    transform: rotate(2deg);
+    transition: var(--transition);
+}
+
+
+
+
+
 
 
 /* FOOTER */
