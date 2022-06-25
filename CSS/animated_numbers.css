@@ -1,0 +1,27 @@
+/* ANIMATED NUMBERS */
+.platform-counter-row {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.platform-counter .col:first-child {
+    margin-left: 0;
+}
+
+.platform-counter .col .description {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.platform-counter .col .counter {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0;
+}
