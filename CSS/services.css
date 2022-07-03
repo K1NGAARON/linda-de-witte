@@ -1,0 +1,12 @@
+.platform-counter .col .counter,
+.platform-counter .col .description {
+    color: var(--white);
+}
+
+#counter {
+    background-color: var(--secondary);
+}
+
+#services {
+    background-color: var(--grey);
+}
