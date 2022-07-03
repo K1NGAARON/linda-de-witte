@@ -35,3 +35,7 @@
 .contact-form-wrapper li i {
     margin-right: 10px;
 }
+
+.contact-form-wrapper .primary-btn:hover {
+    border-color: var(--secondary);
+}
