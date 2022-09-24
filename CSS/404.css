@@ -1,0 +1,8 @@
+#hero {
+    height: 90vh;
+}
+
+#hero h1,
+#hero p {
+    color: var(--black);
+}
