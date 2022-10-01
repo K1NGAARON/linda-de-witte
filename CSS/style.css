@@ -329,6 +329,8 @@ ul li:before {
 #services-row {
     margin-top: 0;
     gap: 30px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 #services-row .service-wrapper {
