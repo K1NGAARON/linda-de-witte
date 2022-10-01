@@ -331,6 +331,7 @@ ul li:before {
     gap: 30px;
     display: flex;
     flex-flow: row wrap;
+    width: 100%;
 }
 
 #services-row .service-wrapper {
@@ -340,6 +341,11 @@ ul li:before {
     position: relative;
     box-shadow: var(--box-shadow-dark);
     transition: var(--transition);
+    width: calc((100% - 30px) / 6);
+}
+
+#services-row .service-wrapper img {
+    width: 100%;
 }
 
 #services-row .service-wrapper .service-content {
