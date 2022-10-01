@@ -341,7 +341,7 @@ ul li:before {
     position: relative;
     box-shadow: var(--box-shadow-dark);
     transition: var(--transition);
-    width: calc((100% - 30px) / 6);
+    width: calc((100% - 30px) / 4);
 }
 
 #services-row .service-wrapper img {
