@@ -129,7 +129,6 @@ ul li:before {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -178,7 +177,7 @@ ul li:before {
 }
 
 .header-logo {
-    width: 130px;
+    width: 200px;
     height: auto;
     margin-left: 0;
 }
