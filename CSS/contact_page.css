@@ -39,3 +39,10 @@
 .contact-form-wrapper .primary-btn:hover {
     border-color: var(--secondary);
 }
+
+@media (max-width: 768px) {
+    .contact-form-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+}
