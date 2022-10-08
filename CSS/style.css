@@ -351,6 +351,7 @@ ul li:before {
 
 #services-row .service-wrapper img {
     width: 100%;
+    margin: 0;
 }
 
 #services-row .service-wrapper .service-content {
@@ -591,7 +592,7 @@ ul li:before {
     }
 
     .topnav-content-sm .header-logo {
-        width: 80px;
+        width: 200px;
         margin: 0 auto!important;
         padding: 20px 0;
     }
@@ -731,13 +732,13 @@ ul li:before {
 
 @media (max-width: 768px) {
     .topnav .header-col:nth-child(1) {
-        width: 30%;
+        width: 50%;
         justify-content: flex-start;
         margin-left: 20px;
     }
     
     .topnav .header-col:nth-child(2) {
-        width: 70%;
+        width: 50%;
         text-align: right;
         justify-content: flex-end;
         margin-right: 20px;
@@ -768,12 +769,44 @@ ul li:before {
     }
 
     .small-menu-content a {
-        color: var(--white);
+        color: var(--secondary);
     }
 
     #myTopnav .fa.fa-bars {
-        color: var(--white);
+        color: var(--secondary);
     }
+
+    #services-row .service-wrapper {
+        width: 40%;
+    }
+
+    #services-row .service-wrapper .service-content h3 {
+        font-size: 18px;
+    }
+
+    #contact .contact-form-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #gallery .row {
+        gap: 10px;
+        flex-flow: row wrap;
+    }
+
+    #gallery .row img {
+        margin: 0;
+        width: 40%;
+    }
+
+    #footer .col {
+        align-items: flex-start;
+    }
+
+    #footer img {
+        margin: 0;
+    }
+
 }
 
 
