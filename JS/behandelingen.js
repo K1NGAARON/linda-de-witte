@@ -3,17 +3,17 @@ const behandelingenWrapper = document.querySelector('#services-row');
 const behandelingenArray = [
     {
         'name' : 'Behandeling 1',
-        'img' : 'IMG/behandelingen/behandeling1.jpg',
+        'img' : './IMG/behandelingen/behandeling1.jpg',
         'url' : './behandelingen/behandeling1.html',
     },
     {
         'name' : 'Behandeling 2',
-        'img' : 'IMG/behandelingen/behandeling2.jpg',
+        'img' : './IMG/behandelingen/behandeling2.jpg',
         'url' : '',
     },
     {
         'name' : 'Behandeling 3',
-        'img' : 'IMG/behandelingen/behandeling3.jpg',
+        'img' : './IMG/behandelingen/behandeling3.jpg',
         'url' : '',
     },
     {
