@@ -40,6 +40,23 @@
     border-color: var(--secondary);
 }
 
+#hero-section .btn-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+#hero-section .ghost-btn {
+    background-color: var(--white);
+    color: var(--primary);
+    border: 1px solid var(--white);
+}
+
+#hero-section .ghost-btn:hover {
+    background-color: var(--secondary);
+    color: var(--white);
+    border: 1px solid var(--secondary);
+}
+
 @media (max-width: 768px) {
     .contact-form-wrapper {
         width: 100%;
