@@ -364,6 +364,7 @@ ul li:before {
 
 #services-row .service-wrapper .service-content h3 {
     color: var(--white);
+    font-size: 18px;
 }
 
 #services-row .service-wrapper .service-content a {
@@ -756,10 +757,6 @@ ul li:before {
 
     #services-row .service-wrapper {
         width: 40%;
-    }
-
-    #services-row .service-wrapper .service-content h3 {
-        font-size: 18px;
     }
 
     #contact .contact-form-wrapper {

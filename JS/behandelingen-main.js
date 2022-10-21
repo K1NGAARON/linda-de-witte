@@ -8,47 +8,47 @@ const behandelingenArray = [
     },
     {
         'name' : 'Fillers',
-        'img' : '../IMG/behandelingen/behandeling2.jpg',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
         'url' : '/behandelingen/fillers.html',
     },
     {
         'name' : 'Collageen stimulatie',
-        'img' : '../IMG/behandelingen/behandeling3.jpg',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
         'url' : '/behandelingen/collageen.html',
     },
     {
         'name' : 'Volume-herstellende fillers',
-        'img' : '../IMG/behandelingen/behandeling4.jpg',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
         'url' : '/behandelingen/volume-herstellende-fillers.html',
     },
     {
         'name' : 'Liquid face lift',
-        'img' : '../IMG/behandelingen/behandeling5.jpg',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
         'url' : '/behandelingen/liquid-face-lift.html',
     },
     {
         'name' : 'Skinboosters',
-        'img' : '../IMG/behandelingen/behandeling6.jpg',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
         'url' : '/behandelingen/skinboosters.html',
     },
     {
         'name' : 'Anti-transpiratie',
-        'img' : '../IMG/behandelingen/behandeling7.jpg',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
         'url' : '/behandelingen/anti-transpiratie.html',
     },
     {
         'name' : 'Hair fillers',
-        'img' : '../IMG/behandelingen/behandeling8.jpg',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
         'url' : '/behandelingen/hair-fillers.html',
     },
     {
         'name' : 'Body -collageen stimulatie',
-        'img' : '../IMG/behandelingen/behandeling9.jpg',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
         'url' : '/behandelingen/body-collageen-stimulatie.html',
     },
     {
         'name' : 'Laserbehandelingen',
-        'img' : '../IMG/behandelingen/behandeling9.jpg',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
         'url' : '/behandelingen/laserbehandelingen.html',
     }
 ]
