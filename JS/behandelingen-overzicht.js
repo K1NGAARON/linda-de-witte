@@ -2,49 +2,54 @@ const behandelingenWrapper = document.querySelector('#services-row');
 
 const behandelingenArray = [
     {
-        'name' : 'Behandeling 1',
+        'name' : 'Spierontspanners',
         'img' : '../IMG/behandelingen/behandeling1.jpg',
-        'url' : './behandelingen/behandeling1.html',
+        'url' : '/behandelingen/spierontspanners.html',
     },
     {
-        'name' : 'Behandeling 2',
-        'img' : '../IMG/behandelingen/behandeling2.jpg',
-        'url' : '',
+        'name' : 'Fillers',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
+        'url' : '/behandelingen/fillers.html',
     },
     {
-        'name' : 'Behandeling 3',
-        'img' : '../IMG/behandelingen/behandeling3.jpg',
-        'url' : '',
+        'name' : 'Collageen stimulatie',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
+        'url' : '/behandelingen/collageen.html',
     },
     {
-        'name' : 'Behandeling 4',
-        'img' : '../IMG/behandelingen/behandeling4.jpg',
-        'url' : '',
+        'name' : 'Volume-herstellende fillers',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
+        'url' : '/behandelingen/volume-herstellende-fillers.html',
     },
     {
-        'name' : 'Behandeling 5',
-        'img' : '../IMG/behandelingen/behandeling5.jpg',
-        'url' : '',
+        'name' : 'Liquid face lift',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
+        'url' : '/behandelingen/liquid-face-lift.html',
     },
     {
-        'name' : 'Behandeling 6',
-        'img' : '../IMG/behandelingen/behandeling6.jpg',
-        'url' : '',
+        'name' : 'Skinboosters',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
+        'url' : '/behandelingen/skinboosters.html',
     },
     {
-        'name' : 'Behandeling 7',
-        'img' : '../IMG/behandelingen/behandeling7.jpg',
-        'url' : '',
+        'name' : 'Anti-transpiratie',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
+        'url' : '/behandelingen/anti-transpiratie.html',
     },
     {
-        'name' : 'Behandeling 8',
-        'img' : '../IMG/behandelingen/behandeling8.jpg',
-        'url' : '',
+        'name' : 'Hair fillers',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
+        'url' : '/behandelingen/hair-fillers.html',
     },
     {
-        'name' : 'Behandeling 9',
-        'img' : '../IMG/behandelingen/behandeling9.jpg',
-        'url' : '',
+        'name' : 'Body -collageen stimulatie',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
+        'url' : '/behandelingen/body-collageen-stimulatie.html',
+    },
+    {
+        'name' : 'Laserbehandelingen',
+        'img' : '../IMG/behandelingen/behandeling1.jpg',
+        'url' : '/behandelingen/laserbehandelingen.html',
     }
 ]
 
