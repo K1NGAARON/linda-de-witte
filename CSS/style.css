@@ -472,18 +472,6 @@ ul li:before {
     transition: var(--transition);
 }
 
-/* REVIEW */
-#review {
-    background-image: url('https://wp.xpeedstudio.com/beautypressv2/home-v3/wp-content/uploads/sites/3/2017/12/testimonial-bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    color: var(--white);
-    height: 50vh;
-}
-
-
-
-
 /* FOOTER */
 #footer {
     width: 100%;
