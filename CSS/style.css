@@ -484,19 +484,7 @@ ul li:before {
 #footer .col {
     align-items: center;
     margin: 0;
-}
-
-#footer .col:nth-child(1) {
-    width: 10%;
-    margin-left: 0;
-}
-
-#footer .col:nth-child(2) {
-    width: 70%;
-}
-
-#footer .col:nth-child(3) {
-    width: 20%;
+    width: 100%;
 }
 
 #footer img {
@@ -533,12 +521,14 @@ ul li:before {
 }
 
 #footer .row {
-    max-width: 1200px;
+    max-width: 1600px;
     align-items: center;
+    flex-direction: column;
 }
 
 #footer .col.socials {
     flex-direction: row;
+    justify-content: center;
 }
 
 #footer .col.socials a {
@@ -793,6 +783,7 @@ ul li:before {
 
     #footer img {
         margin: 0;
+        width: 150px;
     }
 
 }
