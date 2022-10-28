@@ -8,7 +8,7 @@ const behandelingenArray = [
     },
     {
         'name' : 'Fillers',
-        'img' : './IMG/behandelingen/fillers.jpg',
+        'img' : '../IMG/behandelingen/fillers.jpg',
         'url' : '/behandelingen/fillers.html',
     },
     {
