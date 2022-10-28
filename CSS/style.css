@@ -241,12 +241,12 @@ ul li:before {
 }
 
 #hero-section {
-    background-image: url('https://wp.xpeedstudio.com/beautypressv2/home-v3/wp-content/uploads/sites/3/2018/01/slider-3_img_1.jpg');
+    background-image: url('../IMG/home_hero.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom center;
     color: var(--black);
     overflow: hidden;
-    height: 60vh;
+    height: 100vh;
 }
 
 #hero-section .row {
@@ -256,6 +256,11 @@ ul li:before {
 #hero-section .primary-btn {
     background-color: var(--primary);
     border: 1px solid var(--primary);
+}
+
+#hero-section h1,
+#hero-section p {
+    color: var(--white);
 }
 
 #hero-section .primary-btn:hover {
