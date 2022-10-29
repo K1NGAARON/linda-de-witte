@@ -4,7 +4,7 @@
 
 #hero-section h1,
 #hero-section p {
-    color: var(--white);
+    color: var(--white)!important;
 }
 
 @media (max-width: 768px) {
