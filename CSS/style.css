@@ -244,6 +244,7 @@ ul li:before {
     background-image: url('../IMG/home_hero.jpg');
     background-repeat: no-repeat;
     background-position: bottom center;
+    background-size: cover;
     color: var(--black);
     overflow: hidden;
     height: 100vh;
@@ -387,8 +388,25 @@ ul li:before {
 }
 
 #services-row .service-wrapper:hover .service-content {
-    bottom: 10px;
+    bottom: 20px;
     animation: showContent 2s ease 0s 1 normal forwards;
+}
+
+#services-row .service-wrapper .overlay {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 2;
+    transition: var(--transition);
+}
+
+#services-row .service-wrapper:hover img {
+    opacity: 0.3;
 }
 
 

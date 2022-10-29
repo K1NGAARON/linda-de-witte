@@ -57,14 +57,16 @@ function createBehandeling() {
     for (let i = 0; i < behandelingenArray.length; i++) {
         const template = `
             <div class="service-wrapper">
-                <img src="${behandelingenArray[i].img}" alt="${behandelingenArray[i].name}">
-                <div class="service-content">
-                    <h3>
-                        ${behandelingenArray[i].name}
-                    </h3>
-                    <a class="primary-btn" href="${behandelingenArray[i].url}">
-                        Meer info
-                    </a>
+                <div class="overlay">
+                    <img src="${behandelingenArray[i].img}" alt="${behandelingenArray[i].name}">
+                    <div class="service-content">
+                        <h3>
+                            ${behandelingenArray[i].name}
+                        </h3>
+                        <a class="primary-btn" href="${behandelingenArray[i].url}">
+                            Meer info
+                        </a>
+                    </div>
                 </div>
             </div>
         `;
