@@ -49,7 +49,7 @@ const behandelingenArray = [
     {
         'name' : 'Laserbehandelingen',
         'img' : 'IMG/behandelingen/laserbehandeling.jpg',
-        'url' : 'linda-de-witte/behandelingen/laserbehandelingen.html',
+        'url' : 'behandelingen/laserbehandelingen.html',
     }
 ]
 
