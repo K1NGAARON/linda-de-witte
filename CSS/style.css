@@ -258,10 +258,10 @@ ul li:before {
     border: 1px solid var(--primary);
 }
 
-#hero-section h1,
+/* #hero-section h1,
 #hero-section p {
     color: var(--white);
-}
+} */
 
 #hero-section .primary-btn:hover {
     background-color: var(--secondary);
