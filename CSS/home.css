@@ -2,6 +2,11 @@
     width: 40%;
 }
 
+#hero-section h1,
+#hero-section p {
+    color: var(--white);
+}
+
 @media (max-width: 768px) {
     #contact .contact-form-wrapper {
         width: 100%;
