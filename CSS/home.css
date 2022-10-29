@@ -4,7 +4,11 @@
 
 #hero-section .row {
     position: absolute;
-    top: 50%;
+    top: 55%;
+}
+
+#hero-section h1 {
+    font-size: 56px;
 }
 
 #contact .contact-form-wrapper {
