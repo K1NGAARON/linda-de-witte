@@ -701,9 +701,9 @@ ul li:before {
         display: none;
     }
 
-    #contact {
+    /* #contact {
         padding: 0 30px;
-    }
+    } */
 
     .contact-form-wrapper {
         width: 100%;
