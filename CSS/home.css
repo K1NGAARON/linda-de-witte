@@ -42,8 +42,11 @@
 }
 
 @media (max-width: 540px) {
+    #hero-section {
+        position: unset;
+    }
+    
     #hero-section .row {
-        margin-top: 0;
-        top: 20%;
+        position: unset;
     }
 }
