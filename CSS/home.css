@@ -20,6 +20,7 @@
     color: var(--white)!important;
 }
 
+
 @media (max-width: 768px) {
     #hero-section {
         height: 50vh;
@@ -37,5 +38,12 @@
 
     #hero-section .row p {
         text-align: center;
+    }
+}
+
+@media (max-width: 540px) {
+    #hero-section .row {
+        margin-top: 0;
+        top: 20%;
     }
 }
